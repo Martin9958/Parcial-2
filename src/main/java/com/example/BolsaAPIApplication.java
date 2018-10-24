@@ -6,11 +6,13 @@
 package com.example;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  *
  * @author 2124519
  */
+@SpringBootApplication
 public class BolsaAPIApplication {
         public static void main(String[] args) {
                     SpringApplication.run(BolsaAPIApplication.class, args);
